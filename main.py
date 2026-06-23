@@ -59,7 +59,7 @@ for _,_,cliente_nome,cliente_numero in clientes: #Aqui vou enviar para varios co
     payload = json.dumps({
     "phone": "55"+cliente_numero,
     "message": "Olá, "+ cliente_nome+" tudo bem com você?",
-    "delayMessage": 15
+    "delayMessage": 5
     })
     headers = {
     'Client-Token': '',
